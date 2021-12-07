@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:login_app/src/screens/home.dart';
+import 'package:login_app/src/screens/reset.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -66,7 +67,18 @@ class _LoginScreenState extends State<LoginScreen> {
                 
               },
             )
-          ])
+          ]),
+           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              TextButton(
+                child: Text('Forgot Password?'),
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => ResetScreen()),
+                ),
+              )
+            ],
+          )
         ],),
     );
   }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "133669877057",
+    "project_id": "resetapp-c076a",
+    "storage_bucket": "resetapp-c076a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133669877057:android:1f0becd1a6cd94ccd11dc0",
+        "android_client_info": {
+          "package_name": "com.example.login_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133669877057-sji2s4781ff11tjgert6pssju2hg0lem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjxVaC0N1hBZ6ClwfqkfTuYCyOEksM2Uo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133669877057-sji2s4781ff11tjgert6pssju2hg0lem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
